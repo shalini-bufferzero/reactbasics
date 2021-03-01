@@ -1,0 +1,42 @@
+
+		body { 
+			margin: 0; 
+			padding: 0; 
+            background-image: url(https://www.wallpapersin4k.org/wp-content/uploads/2017/04/Himalayan-Mountains-Wallpaper-14.jpg);
+            background-size: cover;
+            background-repeat : no-repeat;
+		} 
+
+		div { 
+			position: absolute; 
+			top: 50%; 
+			left: 50%; 
+			transform: translate(-50%, -50%); 
+		} 
+
+	      span { 
+			font-size: 5em; 
+			font-family: serif; 
+			color: #008000; 
+			text-align: center; 
+			animation: animate 
+				1.5s linear infinite; 
+		} 
+
+		@keyframes animate { 
+			0% { 
+				opacity: 0; 
+			} 
+
+			50% { 
+				opacity: 0.7; 
+			} 
+
+			100% { 
+				opacity: 0; 
+			} 
+		} 
+	
+
+
+	
